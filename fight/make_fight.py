@@ -70,8 +70,8 @@ FONT_STACK = "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvet
 H1_TEXT = "Hi, I'm Lavish Lohiya \U0001FA90"
 PARAS = [
     "~~No~~ ~~particular~~ ~~title~~",
-    "Still learning which parts of me are my own and which parts the **world** left behind.",
-    "Backend Engineer @ Amity University.",
+    "Still learning which parts of me are my own and which parts the **WORLD** left behind.",
+    "Backend Engineer **@Amity University**.",
     "I'm building a polymarket money hack!!",
 ]
 PALETTES = {
@@ -827,7 +827,7 @@ for ch in _kicked.text:
 LINES[3] = [wd for wd in LINES[3] if wd is not _kicked]
 RD = word(3, "hack!!")
 LINES[3] = [wd for wd in LINES[3] if wd is not RD]
-S1, S2, S3 = word(3, "money"), word(2, "Engineer"), word(1, "world")
+S1, S2, S3 = word(3, "money"), word(2, "Engineer"), word(1, "WORLD")
 IX, IY = RD.cx + 4, RD.cy + 1          # where the first crack starts
 
 # ---------------------------------------------------------------- effect library
