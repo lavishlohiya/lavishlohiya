@@ -71,7 +71,7 @@ H1_TEXT = "Hi, I'm Lavish Lohiya \U0001FA90"
 PARAS = [
     "~~No~~ ~~particular~~ ~~title~~",
     "Still learning which parts of me are my own and which parts the **WORLD** left behind.",
-    "Backend Engineer **@Amity University**.",
+    "Backend Engineer @Amity University.",
     "I'm building a polymarket money hack!!",
 ]
 PALETTES = {
